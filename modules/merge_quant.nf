@@ -12,6 +12,6 @@ process MERGE_QUANT {
     """
     echo ${out_bam}
     ls > files.txt
-    python3.9 ${params.baseDir}/bin/merge_quant.py 
+    python ${params.baseDir}/bin/merge_quant.py 
     """
 }
