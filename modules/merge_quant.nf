@@ -10,8 +10,6 @@ process MERGE_QUANT {
     
     script:
     """
-    echo ${out_bam}
-    ls > files.txt
     python ${params.baseDir}/bin/merge_quant.py 
     """
 }
