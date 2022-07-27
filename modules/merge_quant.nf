@@ -6,7 +6,7 @@ process MERGE_QUANT {
     file out_bam
     
     output:
-    path("*"), emit: gathered_quant
+    path("merged_quant.sf"), emit: gathered_quant
     
     script:
     """
