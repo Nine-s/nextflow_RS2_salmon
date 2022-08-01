@@ -10,6 +10,6 @@ process MERGE_QUANT {
     
     script:
     """
-    python ${params.baseDir}/bin/merge_quant.py 
+    python3 ${params.baseDir}/bin/merge_quant.py 
     """
 }
